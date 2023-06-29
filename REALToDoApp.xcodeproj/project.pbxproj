@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0CC1B62A4DD51800929C92 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CC1B52A4DD51800929C92 /* Persistence.swift */; };
+		BD0CC1B92A4DD90900929C92 /* REALToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD0CC1B72A4DD90900929C92 /* REALToDoApp.xcdatamodeld */; };
 		BD80C8C52A4B4992009B4795 /* REALToDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80C8C42A4B4992009B4795 /* REALToDoAppApp.swift */; };
 		BD80C8C72A4B4992009B4795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80C8C62A4B4992009B4795 /* ContentView.swift */; };
 		BD80C8C92A4B4992009B4795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD80C8C82A4B4992009B4795 /* Assets.xcassets */; };
 		BD80C8CC2A4B4992009B4795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD80C8CB2A4B4992009B4795 /* Preview Assets.xcassets */; };
+		BD80C8D32A4B4A0F009B4795 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80C8D22A4B4A0F009B4795 /* ToDoItem.swift */; };
+		BD80C8D52A4B4D8A009B4795 /* NewToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80C8D42A4B4D8A009B4795 /* NewToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0CC1B52A4DD51800929C92 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD0CC1B82A4DD90900929C92 /* REALToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = REALToDoApp.xcdatamodel; sourceTree = "<group>"; };
 		BD80C8C12A4B4992009B4795 /* REALToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REALToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD80C8C42A4B4992009B4795 /* REALToDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REALToDoAppApp.swift; sourceTree = "<group>"; };
 		BD80C8C62A4B4992009B4795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD80C8C82A4B4992009B4795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD80C8CB2A4B4992009B4795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD80C8D22A4B4A0F009B4795 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD80C8D42A4B4D8A009B4795 /* NewToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				BD80C8C42A4B4992009B4795 /* REALToDoAppApp.swift */,
+				BD0CC1B72A4DD90900929C92 /* REALToDoApp.xcdatamodeld */,
+				BD80C8D42A4B4D8A009B4795 /* NewToDo.swift */,
 				BD80C8C62A4B4992009B4795 /* ContentView.swift */,
+				BD0CC1B52A4DD51800929C92 /* Persistence.swift */,
+				BD80C8D22A4B4A0F009B4795 /* ToDoItem.swift */,
 				BD80C8C82A4B4992009B4795 /* Assets.xcassets */,
 				BD80C8CA2A4B4992009B4795 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80C8D52A4B4D8A009B4795 /* NewToDo.swift in Sources */,
 				BD80C8C72A4B4992009B4795 /* ContentView.swift in Sources */,
 				BD80C8C52A4B4992009B4795 /* REALToDoAppApp.swift in Sources */,
+				BD0CC1B92A4DD90900929C92 /* REALToDoApp.xcdatamodeld in Sources */,
+				BD80C8D32A4B4A0F009B4795 /* ToDoItem.swift in Sources */,
+				BD0CC1B62A4DD51800929C92 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD0CC1B72A4DD90900929C92 /* REALToDoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD0CC1B82A4DD90900929C92 /* REALToDoApp.xcdatamodel */,
+			);
+			currentVersion = BD0CC1B82A4DD90900929C92 /* REALToDoApp.xcdatamodel */;
+			path = REALToDoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD80C8B92A4B4992009B4795 /* Project object */;
 }
